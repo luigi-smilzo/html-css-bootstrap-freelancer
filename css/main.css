@@ -1,24 +1,25 @@
 /* TYPOGRAPHY */
 body {
   text-transform: uppercase;
+  color: white;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
 }
 
 h1 {
-  color: white;
-  font-weight: 700;
   font-size: 60px;
 }
 
 h2 {
-  color: black;
-  font-weight: 700;
   font-size: 48px;
 }
 
 h3 {
-  color: white;
   font-size: 25px;
-  font-weight: 700;
 }
 
 /* UTILITIES */
@@ -52,6 +53,7 @@ div.star-white::after {
 
 /* Black star */
 div.star-black i {
+  color: black;
   background-color: white;
   font-size: 30px;
   position: relative;
@@ -111,7 +113,33 @@ div.star-black::after {
   padding: 60px 0;
 }
 
+#portfolio h2 {
+  color: black;
+}
+
 #portfolio [class*=col-] {
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+/* About */
+#about {
+  background-color: #1abc9c;
+  padding-bottom: 60px;
+}
+
+#about .row:nth-child(2) {
+  padding: 0 80px;
+}
+
+#about p {
+  text-transform: none;
+  font-size: 20px;
+}
+
+#about button {
+  margin-top: 30px;
+  color: white;
+  background-color: #1abc9a;
+  border-color: white;
 }
