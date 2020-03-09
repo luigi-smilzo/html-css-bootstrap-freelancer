@@ -1,4 +1,4 @@
-/* Typography */
+/* TYPOGRAPHY */
 body {
   text-transform: uppercase;
 }
@@ -21,8 +21,7 @@ h3 {
   font-weight: 700;
 }
 
-/* Utilities */
-
+/* UTILITIES */
 /* Star position */
 .star-white,
 .star-black {
@@ -71,7 +70,7 @@ div.star-black::after {
   transform: translate(-50%, -50%);
 }
 
-/* Header */
+/* HEADER */
 /* Navbar */
 .navbar {
   background-color: rgb(44, 62, 80);
@@ -106,6 +105,7 @@ div.star-black::after {
   margin-top: 55px;
 }
 
+/* MAIN */
 /* Portfolio */
 #portfolio {
   padding: 60px 0;
