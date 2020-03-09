@@ -1,0 +1,23 @@
+/* Header */
+/* Navbar */
+.navbar {
+  background-color: rgb(44, 62, 80);
+  border: none;
+  border-radius: 0;
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-right li a {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+  line-height: 60px;
+}
+
+.navbar .navbar-right li a {
+  font-size: 16px;
+}
+
+.navbar .navbar-brand {
+  font-size: 26px;
+}
