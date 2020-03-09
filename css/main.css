@@ -9,6 +9,12 @@ h1 {
   font-size: 60px;
 }
 
+h2 {
+  color: black;
+  font-weight: 700;
+  font-size: 54px;
+}
+
 h3 {
   color: white;
   font-size: 25px;
@@ -56,24 +62,20 @@ h3 {
   font-size: 30px;
   position: relative;
   z-index: 1;
-  padding: 10px 0;
+  padding: 0 40px;
 }
 
-#jumbotron i::after {
+#jumbotron div.star {
+  position: relative;
+}
+
+#jumbotron div.star::after {
   content: '';
   height: 4px;
-  width: 450px;
+  width: 60%;
   background: white;
   position: absolute;
-  top: 20px;
-  left: -170px;
-  z-index: 0;
-}
-
-.fa-star:before {
-  content: "\f005";
-  padding: 0 40px;
-  background-color: #1abc9a;
-  position: relative;
-  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
