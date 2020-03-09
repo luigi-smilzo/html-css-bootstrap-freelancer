@@ -105,3 +105,13 @@ div.star-black::after {
   width: 250px;
   margin-top: 55px;
 }
+
+/* Portfolio */
+#portfolio {
+  padding: 60px 0;
+}
+
+#portfolio [class*=col-] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
