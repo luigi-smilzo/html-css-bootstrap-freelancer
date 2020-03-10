@@ -128,6 +128,35 @@ div.star-black::after {
   padding-bottom: 15px;
 }
 
+#portfolio .img-container {
+  position: relative;
+}
+
+#portfolio .overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  display: none;
+}
+
+#portfolio .img-container:hover .overlay {
+  display: block;
+}
+
+#portfolio .overlay::after {
+  content: '\f067';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Font Awesome 5 Pro", "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 90px;
+  color: white;
+}
+
 /* About */
 #about {
   background-color: #1abc9c;
