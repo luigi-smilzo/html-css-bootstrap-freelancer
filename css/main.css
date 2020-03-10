@@ -79,13 +79,19 @@ div.star-black::after {
   border: none;
   border-radius: 0;
   margin-bottom: 0;
+  height: 80px;
+}
+
+.navbar-header button.navbar-toggle {
+  margin-top: 20px;
 }
 
 .navbar .navbar-brand,
 .navbar .navbar-right li a {
   font-weight: 700;
   color: white;
-  line-height: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .navbar .navbar-right li a {
@@ -125,6 +131,7 @@ div.star-black::after {
 /* About */
 #about {
   background-color: #1abc9c;
+  padding-top: 60px;
   padding-bottom: 60px;
 }
 
