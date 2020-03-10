@@ -179,3 +179,35 @@ div.star-black::after {
   background-color: #1abc9a;
   border-color: white;
 }
+
+/* Contact */
+#contact h2 {
+  color: black;
+}
+
+#contact #f-message {
+  display: block;
+}
+
+#contact .form-control {
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+#contact label {
+  text-transform: capitalize;
+  color: rgba(44, 62, 80, 1);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#contact button {
+  background-color: #1abc9c;
+  border: 0;
+  color: white;
+  margin-top: 20px;
+}
