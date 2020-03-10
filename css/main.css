@@ -197,6 +197,7 @@ div.star-black::after {
 /* Contact */
 #contact {
   padding-bottom: 60px;
+  padding-top: 60px;
 }
 
 #contact h2 {
